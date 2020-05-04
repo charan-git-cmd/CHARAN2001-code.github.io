@@ -1,0 +1,94 @@
+body {
+	font-size: 18px;
+	color: white;
+	background-color: #DAA520;
+	font-family: 'Lobster', cursive;
+
+}
+p{
+	font-family: 'Jost', sans-serif;
+
+}
+
+/* HEADER */
+#header-nav {
+	background-color: #B22222;
+	border-radius: 0;
+	border: 0;
+	color: #8B4513;
+}
+
+.navbar-brand p {
+	color: #7CFC00;
+	font-size: 28px;
+}
+
+.navbar-brand a:focus, .navbar-brand a:hover {
+	text-decoration: none;
+}
+#nav-list{
+	margin-top: 10px;
+}
+#nav-list a {
+	color: white;
+	text-align: center;
+}
+
+#nav-list a:hover {
+	background-color: #8243d6;
+}
+#nav-list a span{
+	font-size: 2px;
+}
+/* END HEADER */
+ 
+/* Section */
+#home {
+	margin-bottom: 20px;
+	color: #191970;
+	text-shadow: #228B22;
+}
+
+.row {
+	
+	position: relative;
+	float: left;
+}
+
+.row > div > article {
+	background-color: white;
+	text-align: justify;
+	margin-bottom: 20px;
+	padding: 15px;
+	color: black;
+}
+/* End Section */
+
+
+@media (max-width: 767px) {
+	.row > div > article {
+		width: 80%;
+		margin: 20px auto 0;
+	}
+}
+
+@media (min-width: 1200px) {
+ 
+}
+
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+
+  /* End Header */
+
+ 
+  /* End Home Page */
+}
+
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+  /* Home Page */
+
+  /* End Home Page */
+}
+
