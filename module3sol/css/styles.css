@@ -37,15 +37,6 @@ p{
 #nav-list a:hover {
 	background-color: #8243d6;
 }
-button.navbar-toggle{
-margin-top: 10px;
-}
-#collapsable-nav{
-	float: right;
-	width: 100%;
-	margin: 0;
-	padding-right: auto;
-	padding-left: auto;
 /* END HEADER */
  
 /* Section */
@@ -76,39 +67,4 @@ margin-top: 10px;
 		width: 80%;
 		margin: 20px auto 0;
 	}
-	.navbar-brand{
-		padding-top: 10px;
-		height: 80px;
-		padding-left: 40px;
-	}
-	button{
-		position: relative;
-		left: -25px;
-	}
-	.navbar-brand h1 { /*  name */
-    padding-top: 10px;
-    font-size: 5vw; /* 1vw = 1% of viewport width */
-  }
-  	#collapsable-nav {
-		border: 3px solid #000;
-	}
-	#header-container{
-
-		padding: 0;
-		width: 100%;
-	}
-	.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
-	border: 2px solid #000;
-  }
-
-  .navbar-header button.navbar-toggle:focus, .navbar-header button.navbar-toggle:hover, button:focus .icon-bar , button:hover .icon-bar  {
-	border: 2px solid #fff;
-	background-color: #919191;
 }
- #collapsable-nav {
- 	clear: both;
- 	margin-bottom: 20px;
- }
-}
-
-
